@@ -87,11 +87,24 @@ def _embedded_numeric_count(value: str) -> int:
 
 
 def _looks_year(value: str) -> bool:
-    s = value.strip().replace(" ", "")
+    raw = value.strip()
+    s = raw.replace(" ", "")
     if YEAR_RE.match(s):
         return True
     # Common financial headers such as "FY25" or "FY 2025-26".
-    return bool(re.match(r"^FY\s*(?:19|20)?\d{2}(?:[-/]\s*(?:19|20)?\d{2})?$", value.strip(), re.I))
+    if re.match(r"^FY\s*(?:19|20)?\d{2}(?:[-/]\s*(?:19|20)?\d{2})?$", raw, re.I):
+        return True
+    # Indian financial statements frequently use date headers such as
+    # "As at March 31, 2025" / "Year ended March 31, 2025". Treat these
+    # as year headers too; canonicalize_period() maps them to FY2025.
+    return bool(re.search(
+        r"\b(?:19|20)\d{2}\b",
+        raw,
+    )) and bool(re.search(
+        r"(?:as\s+at|year\s+ended|period\s+ended|march|april|january|february|may|june|july|august|september|october|november|december|31[-\s/])",
+        raw,
+        re.I,
+    ))
 
 
 def _table_stats(rows: list[list[str]]) -> dict[str, float | int]:
@@ -358,14 +371,40 @@ def extract_page_tables(pdf_path: str, page_number: int) -> list[ExtractedTable]
         candidates = viable
 
     best = candidates[0]
+
+    def _normalized_rows(rows: list[list[str]]) -> list[tuple[str, ...]]:
+        normalized = []
+        for row in rows:
+            cells = [re.sub(r"\s+", " ", str(cell or "")).strip() for cell in row]
+            compact = tuple(cell for cell in cells if cell)
+            if compact:
+                normalized.append(compact)
+        return normalized
+
+    def _rows_signature(rows: list[list[str]]) -> tuple[tuple[str, ...], ...]:
+        return tuple(_normalized_rows(rows))
+
+    def _is_same_logical_table(a: list[list[str]], b: list[list[str]]) -> bool:
+        # Compare financial data rows after removing extractor-specific
+        # spacer columns. Headers may be tokenized differently, so exact
+        # table equality is too strict for duplicate detection.
+        data_a = {r for r in _normalized_rows(a) if len(r) >= 3 and any(_looks_numeric(c) for c in r[1:])}
+        data_b = {r for r in _normalized_rows(b) if len(r) >= 3 and any(_looks_numeric(c) for c in r[1:])}
+        if not data_a or not data_b:
+            return False
+        overlap = len(data_a & data_b) / max(min(len(data_a), len(data_b)), 1)
+        return overlap >= 0.80
+
+    seen_signatures = {_rows_signature(best.rows)}
     unique: list[ExtractedTable] = [best]
     for candidate in candidates[1:]:
         if candidate.quality_score < max(best.quality_score - 0.12, MIN_ACCEPTABLE_SCORE):
             continue
-        shape_a = (len(best.rows), max((len(r) for r in best.rows), default=0))
-        shape_b = (len(candidate.rows), max((len(r) for r in candidate.rows), default=0))
-        if shape_a != shape_b or candidate.method != best.method:
-            unique.append(candidate)
+        signature = _rows_signature(candidate.rows)
+        if signature in seen_signatures or _is_same_logical_table(best.rows, candidate.rows):
+            continue
+        unique.append(candidate)
+        seen_signatures.add(signature)
         if len(unique) >= 2:
             break
     return unique
