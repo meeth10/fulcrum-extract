@@ -31,7 +31,11 @@ _FY_RE = re.compile(r"^FY\s*[- ]?\s*(\d{2,4})(?:\s*[-/]\s*(\d{2,4}))?$", re.I)
 _YEAR_RANGE_RE = re.compile(r"^(\d{4})\s*[-/]\s*(\d{2,4})$")
 _BARE_YEAR_RE = re.compile(r"^(\d{4})$")
 _MONTH_NAMES = "jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec"
-_MONTH_DATE_RE = re.compile(rf"\b({_MONTH_NAMES})[a-z]*[.,/ -]+'?(\d{{2,4}})\b", re.I)
+_MONTH_DATE_RE = re.compile(
+    rf"(?:\b({_MONTH_NAMES})[a-z]*\s+\d{{1,2}}(?:st|nd|rd|th)?(?:,|\s)+'?((?:19|20)?\d{{2}})\b"
+    rf"|\b\d{{1,2}}(?:st|nd|rd|th)?\s+({_MONTH_NAMES})[a-z]*\s+'?((?:19|20)?\d{{2}})\b)",
+    re.I,
+)
 _NUMERIC_DATE_RE = re.compile(r"\b\d{1,2}[./]\d{1,2}[./](\d{2,4})\b")
 
 
@@ -87,7 +91,8 @@ def canonicalize_period(text: str | None) -> str:
 
     m = _MONTH_DATE_RE.search(raw)
     if m:
-        return f"FY{_full_year(m.group(2))}"
+        year_token = m.group(2) or m.group(4)
+        return f"FY{_full_year(year_token)}"
 
     m = _NUMERIC_DATE_RE.search(raw)
     if m:
