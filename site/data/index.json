@@ -1,0 +1,18 @@
+[
+  {
+    "id": "amazon-com-inc",
+    "name": "Amazon.com, Inc.",
+    "ticker": "AMZN",
+    "sector": "Technology",
+    "periods": [
+      "FY2025",
+      "FY2026",
+      "H1FY2025",
+      "H1FY2026",
+      "Q2FY2025",
+      "Q2FY2026",
+      "TTMQ2FY2025",
+      "TTMQ2FY2026"
+    ]
+  }
+]

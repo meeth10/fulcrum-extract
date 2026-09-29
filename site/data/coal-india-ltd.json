@@ -1,0 +1,2388 @@
+{
+  "id": "coal-india-ltd",
+  "name": "Coal India Ltd",
+  "ticker": "COALINDIA",
+  "sector": "Mining",
+  "currency": "INR",
+  "market": {
+    "price": 425.45001220703125,
+    "shares_outstanding": 616.2728327,
+    "net_debt_override": null
+  },
+  "periods": [
+    "FY2016",
+    "FY2017",
+    "FY2018",
+    "FY2019",
+    "FY2020",
+    "FY2021",
+    "FY2022",
+    "FY2023",
+    "FY2024",
+    "FY2025"
+  ],
+  "statements": {
+    "balance_sheet": {
+      "FY2025": {
+        "note:": {
+          "consolidated": {
+            "value": 1.0,
+            "unit": "unspecified",
+            "metric_raw": "Note:",
+            "source_page": 257,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "pdfplumber_coordinates",
+            "extraction_confidence": 0.6707954545454545,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "bhawan,_premises_no.": {
+          "consolidated": {
+            "value": 4.0,
+            "unit": "unspecified",
+            "metric_raw": "Bhawan, Premises No.",
+            "source_page": 257,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "pdfplumber_coordinates",
+            "extraction_confidence": 0.6707954545454545,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "the_company_has_twelve_subsidiaries_in_india_including": {
+          "consolidated": {
+            "value": 2.1,
+            "unit": "unspecified",
+            "metric_raw": "The company has twelve subsidiaries in India including",
+            "source_page": 257,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "pdfplumber_coordinates",
+            "extraction_confidence": 0.6707954545454545,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "has": {
+          "consolidated": {
+            "value": 51.0,
+            "unit": "unspecified",
+            "metric_raw": "has",
+            "source_page": 257,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "pdfplumber_coordinates",
+            "extraction_confidence": 0.6707954545454545,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "directors_of_the_company_on_may": {
+          "consolidated": {
+            "value": 7.0,
+            "unit": "unspecified",
+            "metric_raw": "Directors of the company on May",
+            "source_page": 257,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "pdfplumber_coordinates",
+            "extraction_confidence": 0.6707954545454545,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "standards)_rules,": {
+          "consolidated": {
+            "value": 2015.0,
+            "unit": "unspecified",
+            "metric_raw": "Standards) Rules,",
+            "source_page": 257,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "pdfplumber_coordinates",
+            "extraction_confidence": 0.6707954545454545,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        }
+      }
+    },
+    "income_statement": {
+      "FY2016": {
+        "less:_statutory_levies": {
+          "consolidated": {
+            "value": 32505.76,
+            "unit": "unspecified",
+            "metric_raw": "Less: Statutory Levies",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "total_(a)": {
+          "consolidated": {
+            "value": 83948.21,
+            "unit": "unspecified",
+            "metric_raw": "TOTAL (A)",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "unwinding_of_discounts": {
+          "consolidated": {
+            "value": 365.51,
+            "unit": "unspecified",
+            "metric_raw": "Unwinding of discounts",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "other_finance_costs": {
+          "consolidated": {
+            "value": 20.65,
+            "unit": "unspecified",
+            "metric_raw": "Other finance costs",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "total_(b)": {
+          "consolidated": {
+            "value": 62508.41,
+            "unit": "unspecified",
+            "metric_raw": "TOTAL (B)",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "a_(i)_items_that_will_not_be_reclassified_to_profit_or_loss": {
+          "consolidated": {
+            "value": 455.01,
+            "unit": "unspecified",
+            "metric_raw": "A (i) Items that will not be reclassified to profit or loss",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "(ii)_income_tax_relating_to_items_that_will_not_be_reclassified_to_profit_or_loss": {
+          "consolidated": {
+            "value": -160.89,
+            "unit": "unspecified",
+            "metric_raw": "(ii) Income tax relating to items that will not be reclassified to profit or loss",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "b_(i)_items_that_will_be_reclassified_to_profit_or_loss": {
+          "consolidated": {
+            "value": 0.29,
+            "unit": "unspecified",
+            "metric_raw": "B (i) Items that will be reclassified to profit or loss",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "total_other_comprehensive_income": {
+          "consolidated": {
+            "value": 294.41,
+            "unit": "unspecified",
+            "metric_raw": "Total Other Comprehensive Income",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "owners_of_the_company": {
+          "consolidated": {
+            "value": 14266.82,
+            "unit": "unspecified",
+            "metric_raw": "Owners of the company",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "non-controlling_interest": {
+          "consolidated": {
+            "value": -0.04,
+            "unit": "unspecified",
+            "metric_raw": "Non-controlling interest",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        }
+      },
+      "FY2017": {
+        "less:_statutory_levies": {
+          "consolidated": {
+            "value": 46684.1,
+            "unit": "unspecified",
+            "metric_raw": "Less: Statutory Levies",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "total_(a)": {
+          "consolidated": {
+            "value": 83735.42,
+            "unit": "unspecified",
+            "metric_raw": "TOTAL (A)",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "unwinding_of_discounts": {
+          "consolidated": {
+            "value": 378.55,
+            "unit": "unspecified",
+            "metric_raw": "Unwinding of discounts",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "other_finance_costs": {
+          "consolidated": {
+            "value": 30.63,
+            "unit": "unspecified",
+            "metric_raw": "Other finance costs",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "total_(b)": {
+          "consolidated": {
+            "value": 69289.09,
+            "unit": "unspecified",
+            "metric_raw": "TOTAL (B)",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "a_(i)_items_that_will_not_be_reclassified_to_profit_or_loss": {
+          "consolidated": {
+            "value": 140.15,
+            "unit": "unspecified",
+            "metric_raw": "A (i) Items that will not be reclassified to profit or loss",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "(ii)_income_tax_relating_to_items_that_will_not_be_reclassified_to_profit_or_loss": {
+          "consolidated": {
+            "value": -58.16,
+            "unit": "unspecified",
+            "metric_raw": "(ii) Income tax relating to items that will not be reclassified to profit or loss",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "b_(i)_items_that_will_be_reclassified_to_profit_or_loss": {
+          "consolidated": {
+            "value": 0.01,
+            "unit": "unspecified",
+            "metric_raw": "B (i) Items that will be reclassified to profit or loss",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "total_other_comprehensive_income": {
+          "consolidated": {
+            "value": 82.0,
+            "unit": "unspecified",
+            "metric_raw": "Total Other Comprehensive Income",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "owners_of_the_company": {
+          "consolidated": {
+            "value": 9280.02,
+            "unit": "unspecified",
+            "metric_raw": "Owners of the company",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "non-controlling_interest": {
+          "consolidated": {
+            "value": -0.25,
+            "unit": "unspecified",
+            "metric_raw": "Non-controlling interest",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        }
+      },
+      "FY2018": {
+        "less:_statutory_levies": {
+          "consolidated": {
+            "value": 45432.71,
+            "unit": "unspecified",
+            "metric_raw": "Less: Statutory Levies",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "total_(a)": {
+          "consolidated": {
+            "value": 90219.12,
+            "unit": "unspecified",
+            "metric_raw": "TOTAL (A)",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "unwinding_of_discounts": {
+          "consolidated": {
+            "value": 393.59,
+            "unit": "unspecified",
+            "metric_raw": "Unwinding of discounts",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "other_finance_costs": {
+          "consolidated": {
+            "value": 36.51,
+            "unit": "unspecified",
+            "metric_raw": "Other finance costs",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "total_(b)": {
+          "consolidated": {
+            "value": 79448.81,
+            "unit": "unspecified",
+            "metric_raw": "TOTAL (B)",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "a_(i)_items_that_will_not_be_reclassified_to_profit_or_loss": {
+          "consolidated": {
+            "value": 973.37,
+            "unit": "unspecified",
+            "metric_raw": "A (i) Items that will not be reclassified to profit or loss",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "(ii)_income_tax_relating_to_items_that_will_not_be_reclassified_to_profit_or_loss": {
+          "consolidated": {
+            "value": -330.56,
+            "unit": "unspecified",
+            "metric_raw": "(ii) Income tax relating to items that will not be reclassified to profit or loss",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "b_(i)_items_that_will_be_reclassified_to_profit_or_loss": {
+          "consolidated": {
+            "value": 0.01,
+            "unit": "unspecified",
+            "metric_raw": "B (i) Items that will be reclassified to profit or loss",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "total_other_comprehensive_income": {
+          "consolidated": {
+            "value": 642.82,
+            "unit": "unspecified",
+            "metric_raw": "Total Other Comprehensive Income",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "owners_of_the_company": {
+          "consolidated": {
+            "value": 7038.56,
+            "unit": "unspecified",
+            "metric_raw": "Owners of the company",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "non-controlling_interest": {
+          "consolidated": {
+            "value": -0.12,
+            "unit": "unspecified",
+            "metric_raw": "Non-controlling interest",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        }
+      },
+      "FY2019": {
+        "less:_statutory_levies": {
+          "consolidated": {
+            "value": 47706.92,
+            "unit": "unspecified",
+            "metric_raw": "Less: Statutory Levies",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "total_(a)": {
+          "consolidated": {
+            "value": 5422.67,
+            "unit": "unspecified",
+            "metric_raw": "TOTAL (A)",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "unwinding_of_discounts": {
+          "consolidated": {
+            "value": 251.33,
+            "unit": "unspecified",
+            "metric_raw": "Unwinding of discounts",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "other_finance_costs": {
+          "consolidated": {
+            "value": 12.35,
+            "unit": "unspecified",
+            "metric_raw": "Other finance costs",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "total_(b)": {
+          "consolidated": {
+            "value": 78293.8,
+            "unit": "unspecified",
+            "metric_raw": "TOTAL (B)",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "a_(i)_items_that_will_not_be_reclassified_to_profit_or_loss": {
+          "consolidated": {
+            "value": -42.53,
+            "unit": "unspecified",
+            "metric_raw": "A (i) Items that will not be reclassified to profit or loss",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "(ii)_income_tax_relating_to_items_that_will_not_be_reclassified_to_profit_or_loss": {
+          "consolidated": {
+            "value": 59.53,
+            "unit": "unspecified",
+            "metric_raw": "(ii) Income tax relating to items that will not be reclassified to profit or loss",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "b_(i)_items_that_will_be_reclassified_to_profit_or_loss": {
+          "consolidated": {
+            "value": 0.38,
+            "unit": "unspecified",
+            "metric_raw": "B (i) Items that will be reclassified to profit or loss",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "total_other_comprehensive_income": {
+          "consolidated": {
+            "value": 17.38,
+            "unit": "unspecified",
+            "metric_raw": "Total Other Comprehensive Income",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "owners_of_the_company": {
+          "consolidated": {
+            "value": 17463.07,
+            "unit": "unspecified",
+            "metric_raw": "Owners of the company",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "non-controlling_interest": {
+          "consolidated": {
+            "value": 1.35,
+            "unit": "unspecified",
+            "metric_raw": "Non-controlling interest",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        }
+      },
+      "FY2020": {
+        "less:_statutory_levies": {
+          "consolidated": {
+            "value": 45605.79,
+            "unit": "unspecified",
+            "metric_raw": "Less: Statutory Levies",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "total_(a)": {
+          "consolidated": {
+            "value": 2525.3,
+            "unit": "unspecified",
+            "metric_raw": "TOTAL (A)",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "unwinding_of_discounts": {
+          "consolidated": {
+            "value": 434.29,
+            "unit": "unspecified",
+            "metric_raw": "Unwinding of discounts",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "other_finance_costs": {
+          "consolidated": {
+            "value": 68.63,
+            "unit": "unspecified",
+            "metric_raw": "Other finance costs",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "total_(b)": {
+          "consolidated": {
+            "value": 78452.81,
+            "unit": "unspecified",
+            "metric_raw": "TOTAL (B)",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "a_(i)_items_that_will_not_be_reclassified_to_profit_or_loss": {
+          "consolidated": {
+            "value": -1805.19,
+            "unit": "unspecified",
+            "metric_raw": "A (i) Items that will not be reclassified to profit or loss",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "(ii)_income_tax_relating_to_items_that_will_not_be_reclassified_to_profit_or_loss": {
+          "consolidated": {
+            "value": 469.88,
+            "unit": "unspecified",
+            "metric_raw": "(ii) Income tax relating to items that will not be reclassified to profit or loss",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "b_(i)_items_that_will_be_reclassified_to_profit_or_loss": {
+          "consolidated": {
+            "value": 0.58,
+            "unit": "unspecified",
+            "metric_raw": "B (i) Items that will be reclassified to profit or loss",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "total_other_comprehensive_income": {
+          "consolidated": {
+            "value": -1334.73,
+            "unit": "unspecified",
+            "metric_raw": "Total Other Comprehensive Income",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "owners_of_the_company": {
+          "consolidated": {
+            "value": 16714.19,
+            "unit": "unspecified",
+            "metric_raw": "Owners of the company",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "non-controlling_interest": {
+          "consolidated": {
+            "value": -13.85,
+            "unit": "unspecified",
+            "metric_raw": "Non-controlling interest",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        }
+      },
+      "FY2021": {
+        "less:_statutory_levies": {
+          "consolidated": {
+            "value": 44075.81,
+            "unit": "unspecified",
+            "metric_raw": "Less: Statutory Levies",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "total_(a)": {
+          "consolidated": {
+            "value": 93768.84,
+            "unit": "unspecified",
+            "metric_raw": "TOTAL (A)",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "unwinding_of_discounts": {
+          "consolidated": {
+            "value": 446.46,
+            "unit": "unspecified",
+            "metric_raw": "Unwinding of discounts",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "other_finance_costs": {
+          "consolidated": {
+            "value": 195.78,
+            "unit": "unspecified",
+            "metric_raw": "Other finance costs",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "total_(b)": {
+          "consolidated": {
+            "value": 75756.63,
+            "unit": "unspecified",
+            "metric_raw": "TOTAL (B)",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "a_(i)_items_that_will_not_be_reclassified_to_profit_or_loss": {
+          "consolidated": {
+            "value": -769.73,
+            "unit": "unspecified",
+            "metric_raw": "A (i) Items that will not be reclassified to profit or loss",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "(ii)_income_tax_relating_to_items_that_will_not_be_reclassified_to_profit_or_loss": {
+          "consolidated": {
+            "value": 134.7,
+            "unit": "unspecified",
+            "metric_raw": "(ii) Income tax relating to items that will not be reclassified to profit or loss",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "b_(i)_items_that_will_be_reclassified_to_profit_or_loss": {
+          "consolidated": {
+            "value": -0.48,
+            "unit": "unspecified",
+            "metric_raw": "B (i) Items that will be reclassified to profit or loss",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "total_other_comprehensive_income": {
+          "consolidated": {
+            "value": -635.51,
+            "unit": "unspecified",
+            "metric_raw": "Total Other Comprehensive Income",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "owners_of_the_company": {
+          "consolidated": {
+            "value": 12699.89,
+            "unit": "unspecified",
+            "metric_raw": "Owners of the company",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "non-controlling_interest": {
+          "consolidated": {
+            "value": 2.28,
+            "unit": "unspecified",
+            "metric_raw": "Non-controlling interest",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        }
+      },
+      "FY2022": {
+        "less:_statutory_levies": {
+          "consolidated": {
+            "value": 52040.73,
+            "unit": "unspecified",
+            "metric_raw": "Less: Statutory Levies",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "total_(a)": {
+          "consolidated": {
+            "value": 13596.83,
+            "unit": "unspecified",
+            "metric_raw": "TOTAL (A)",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "unwinding_of_discounts": {
+          "consolidated": {
+            "value": 456.81,
+            "unit": "unspecified",
+            "metric_raw": "Unwinding of discounts",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "other_finance_costs": {
+          "consolidated": {
+            "value": 84.68,
+            "unit": "unspecified",
+            "metric_raw": "Other finance costs",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "total_(b)": {
+          "consolidated": {
+            "value": 89971.96,
+            "unit": "unspecified",
+            "metric_raw": "TOTAL (B)",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "a_(i)_items_that_will_not_be_reclassified_to_profit_or_loss": {
+          "consolidated": {
+            "value": 90.28,
+            "unit": "unspecified",
+            "metric_raw": "A (i) Items that will not be reclassified to profit or loss",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "(ii)_income_tax_relating_to_items_that_will_not_be_reclassified_to_profit_or_loss": {
+          "consolidated": {
+            "value": -39.19,
+            "unit": "unspecified",
+            "metric_raw": "(ii) Income tax relating to items that will not be reclassified to profit or loss",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "b_(i)_items_that_will_be_reclassified_to_profit_or_loss": {
+          "consolidated": {
+            "value": 0.22,
+            "unit": "unspecified",
+            "metric_raw": "B (i) Items that will be reclassified to profit or loss",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "total_other_comprehensive_income": {
+          "consolidated": {
+            "value": 51.31,
+            "unit": "unspecified",
+            "metric_raw": "Total Other Comprehensive Income",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "owners_of_the_company": {
+          "consolidated": {
+            "value": 17358.1,
+            "unit": "unspecified",
+            "metric_raw": "Owners of the company",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "non-controlling_interest": {
+          "consolidated": {
+            "value": 20.32,
+            "unit": "unspecified",
+            "metric_raw": "Non-controlling interest",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        }
+      },
+      "FY2023": {
+        "less:_statutory_levies": {
+          "consolidated": {
+            "value": 59828.1,
+            "unit": "unspecified",
+            "metric_raw": "Less: Statutory Levies",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "total_(a)": {
+          "consolidated": {
+            "value": 44811.72,
+            "unit": "unspecified",
+            "metric_raw": "TOTAL (A)",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "unwinding_of_discounts": {
+          "consolidated": {
+            "value": 546.09,
+            "unit": "unspecified",
+            "metric_raw": "Unwinding of discounts",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "other_finance_costs": {
+          "consolidated": {
+            "value": 138.22,
+            "unit": "unspecified",
+            "metric_raw": "Other finance costs",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "total_(b)": {
+          "consolidated": {
+            "value": 1528.98,
+            "unit": "unspecified",
+            "metric_raw": "TOTAL (B)",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "a_(i)_items_that_will_not_be_reclassified_to_profit_or_loss": {
+          "consolidated": {
+            "value": 353.43,
+            "unit": "unspecified",
+            "metric_raw": "A (i) Items that will not be reclassified to profit or loss",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "(ii)_income_tax_relating_to_items_that_will_not_be_reclassified_to_profit_or_loss": {
+          "consolidated": {
+            "value": -88.94,
+            "unit": "unspecified",
+            "metric_raw": "(ii) Income tax relating to items that will not be reclassified to profit or loss",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "b_(i)_items_that_will_be_reclassified_to_profit_or_loss": {
+          "consolidated": {
+            "value": 0.14,
+            "unit": "unspecified",
+            "metric_raw": "B (i) Items that will be reclassified to profit or loss",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "total_other_comprehensive_income": {
+          "consolidated": {
+            "value": 264.63,
+            "unit": "unspecified",
+            "metric_raw": "Total Other Comprehensive Income",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "owners_of_the_company": {
+          "consolidated": {
+            "value": 31763.23,
+            "unit": "unspecified",
+            "metric_raw": "Owners of the company",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "non-controlling_interest": {
+          "consolidated": {
+            "value": -40.25,
+            "unit": "unspecified",
+            "metric_raw": "Non-controlling interest",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        }
+      },
+      "FY2024": {
+        "less:_statutory_levies": {
+          "consolidated": {
+            "value": 63581.45,
+            "unit": "unspecified",
+            "metric_raw": "Less: Statutory Levies",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "total_(a)": {
+          "consolidated": {
+            "value": 52731.5,
+            "unit": "unspecified",
+            "metric_raw": "TOTAL (A)",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "unwinding_of_discounts": {
+          "consolidated": {
+            "value": 579.82,
+            "unit": "unspecified",
+            "metric_raw": "Unwinding of discounts",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "other_finance_costs": {
+          "consolidated": {
+            "value": 239.55,
+            "unit": "unspecified",
+            "metric_raw": "Other finance costs",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "total_(b)": {
+          "consolidated": {
+            "value": 4345.72,
+            "unit": "unspecified",
+            "metric_raw": "TOTAL (B)",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "a_(i)_items_that_will_not_be_reclassified_to_profit_or_loss": {
+          "consolidated": {
+            "value": -523.52,
+            "unit": "unspecified",
+            "metric_raw": "A (i) Items that will not be reclassified to profit or loss",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "(ii)_income_tax_relating_to_items_that_will_not_be_reclassified_to_profit_or_loss": {
+          "consolidated": {
+            "value": 108.07,
+            "unit": "unspecified",
+            "metric_raw": "(ii) Income tax relating to items that will not be reclassified to profit or loss",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "total_other_comprehensive_income": {
+          "consolidated": {
+            "value": -415.45,
+            "unit": "unspecified",
+            "metric_raw": "Total Other Comprehensive Income",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "owners_of_the_company": {
+          "consolidated": {
+            "value": 37402.29,
+            "unit": "unspecified",
+            "metric_raw": "Owners of the company",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "non-controlling_interest": {
+          "consolidated": {
+            "value": -33.16,
+            "unit": "unspecified",
+            "metric_raw": "Non-controlling interest",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        }
+      },
+      "FY2025": {
+        "less:_statutory_levies": {
+          "consolidated": {
+            "value": 64399.95,
+            "unit": "unspecified",
+            "metric_raw": "Less: Statutory Levies",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "total_(a)": {
+          "consolidated": {
+            "value": 52838.98,
+            "unit": "unspecified",
+            "metric_raw": "TOTAL (A)",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "unwinding_of_discounts": {
+          "consolidated": {
+            "value": 615.04,
+            "unit": "unspecified",
+            "metric_raw": "Unwinding of discounts",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "other_finance_costs": {
+          "consolidated": {
+            "value": 268.61,
+            "unit": "unspecified",
+            "metric_raw": "Other finance costs",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "total_(b)": {
+          "consolidated": {
+            "value": 6335.05,
+            "unit": "unspecified",
+            "metric_raw": "TOTAL (B)",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "a_(i)_items_that_will_not_be_reclassified_to_profit_or_loss": {
+          "consolidated": {
+            "value": -836.98,
+            "unit": "unspecified",
+            "metric_raw": "A (i) Items that will not be reclassified to profit or loss",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "(ii)_income_tax_relating_to_items_that_will_not_be_reclassified_to_profit_or_loss": {
+          "consolidated": {
+            "value": 210.11,
+            "unit": "unspecified",
+            "metric_raw": "(ii) Income tax relating to items that will not be reclassified to profit or loss",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "b_(i)_items_that_will_be_reclassified_to_profit_or_loss": {
+          "consolidated": {
+            "value": 0.01,
+            "unit": "unspecified",
+            "metric_raw": "B (i) Items that will be reclassified to profit or loss",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "total_other_comprehensive_income": {
+          "consolidated": {
+            "value": -626.86,
+            "unit": "unspecified",
+            "metric_raw": "Total Other Comprehensive Income",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "owners_of_the_company": {
+          "consolidated": {
+            "value": 35358.16,
+            "unit": "unspecified",
+            "metric_raw": "Owners of the company",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "non-controlling_interest": {
+          "consolidated": {
+            "value": -56.06,
+            "unit": "unspecified",
+            "metric_raw": "Non-controlling interest",
+            "source_page": 75,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "camelot_stream",
+            "extraction_confidence": 0.9232933333333334,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        }
+      }
+    },
+    "cash_flow": {
+      "FY2025": {
+        "acquisitions_and_unwinding_finance_cost_under_finance_lease": {
+          "consolidated": {
+            "value": 92.58,
+            "unit": "unspecified",
+            "metric_raw": "Acquisitions and unwinding finance cost under finance lease",
+            "source_page": 256,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "pdfplumber_coordinates",
+            "extraction_confidence": 0.8074561403508772,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "reconciliation_of_cash_and_cash_equivalents_(refer_note": {
+          "consolidated": {
+            "value": 4.4,
+            "unit": "unspecified",
+            "metric_raw": "Reconciliation of Cash and Cash equivalents (Refer Note",
+            "source_page": 256,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "pdfplumber_coordinates",
+            "extraction_confidence": 0.8074561403508772,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "(d)_cheques,_drafts_and_stamps_in_hand": {
+          "consolidated": {
+            "value": 0.01,
+            "unit": "unspecified",
+            "metric_raw": "(d) Cheques, Drafts and Stamps in hand",
+            "source_page": 256,
+            "source_table": null,
+            "source_heading": "Coal India Limited",
+            "extraction_method": "pdfplumber_coordinates",
+            "extraction_confidence": 0.8074561403508772,
+            "doc_type": "annual_report",
+            "fiscal_year": "FY2025"
+          },
+          "standalone": null,
+          "unspecified": null
+        }
+      }
+    }
+  },
+  "fundamentals": {
+    "FY2016": {
+      "revenue": null,
+      "ebitda": null,
+      "ebit": null,
+      "net_income": null,
+      "shareholders_equity": null,
+      "total_debt": null,
+      "cash_and_equivalents": null,
+      "operating_cash_flow": null,
+      "capital_expenditure": null
+    },
+    "FY2017": {
+      "revenue": null,
+      "ebitda": null,
+      "ebit": null,
+      "net_income": null,
+      "shareholders_equity": null,
+      "total_debt": null,
+      "cash_and_equivalents": null,
+      "operating_cash_flow": null,
+      "capital_expenditure": null
+    },
+    "FY2018": {
+      "revenue": null,
+      "ebitda": null,
+      "ebit": null,
+      "net_income": null,
+      "shareholders_equity": null,
+      "total_debt": null,
+      "cash_and_equivalents": null,
+      "operating_cash_flow": null,
+      "capital_expenditure": null
+    },
+    "FY2019": {
+      "revenue": null,
+      "ebitda": null,
+      "ebit": null,
+      "net_income": null,
+      "shareholders_equity": null,
+      "total_debt": null,
+      "cash_and_equivalents": null,
+      "operating_cash_flow": null,
+      "capital_expenditure": null
+    },
+    "FY2020": {
+      "revenue": null,
+      "ebitda": null,
+      "ebit": null,
+      "net_income": null,
+      "shareholders_equity": null,
+      "total_debt": null,
+      "cash_and_equivalents": null,
+      "operating_cash_flow": null,
+      "capital_expenditure": null
+    },
+    "FY2021": {
+      "revenue": null,
+      "ebitda": null,
+      "ebit": null,
+      "net_income": null,
+      "shareholders_equity": null,
+      "total_debt": null,
+      "cash_and_equivalents": null,
+      "operating_cash_flow": null,
+      "capital_expenditure": null
+    },
+    "FY2022": {
+      "revenue": null,
+      "ebitda": null,
+      "ebit": null,
+      "net_income": null,
+      "shareholders_equity": null,
+      "total_debt": null,
+      "cash_and_equivalents": null,
+      "operating_cash_flow": null,
+      "capital_expenditure": null
+    },
+    "FY2023": {
+      "revenue": null,
+      "ebitda": null,
+      "ebit": null,
+      "net_income": null,
+      "shareholders_equity": null,
+      "total_debt": null,
+      "cash_and_equivalents": null,
+      "operating_cash_flow": null,
+      "capital_expenditure": null
+    },
+    "FY2024": {
+      "revenue": null,
+      "ebitda": null,
+      "ebit": null,
+      "net_income": null,
+      "shareholders_equity": null,
+      "total_debt": null,
+      "cash_and_equivalents": null,
+      "operating_cash_flow": null,
+      "capital_expenditure": null
+    },
+    "FY2025": {
+      "revenue": null,
+      "ebitda": null,
+      "ebit": null,
+      "net_income": null,
+      "shareholders_equity": null,
+      "total_debt": null,
+      "cash_and_equivalents": null,
+      "operating_cash_flow": null,
+      "capital_expenditure": null
+    }
+  },
+  "comps": {
+    "FY2016": {
+      "metrics": {
+        "ebitda_margin": null,
+        "net_margin": null,
+        "roe": null,
+        "roic": null,
+        "free_cash_flow": null,
+        "net_debt": null,
+        "net_debt_to_ebitda": null,
+        "revenue_growth": null
+      },
+      "valuation": {
+        "market_cap": 262193.28419507673,
+        "enterprise_value": null,
+        "pe": null,
+        "pb": null,
+        "ev_ebitda": null,
+        "ev_ebit": null,
+        "ev_sales": null,
+        "fcf_yield": null
+      },
+      "missing_inputs": [
+        "revenue",
+        "ebitda",
+        "ebit",
+        "net_income",
+        "shareholders_equity",
+        "total_debt",
+        "cash_and_equivalents",
+        "operating_cash_flow",
+        "capital_expenditure"
+      ]
+    },
+    "FY2017": {
+      "metrics": {
+        "ebitda_margin": null,
+        "net_margin": null,
+        "roe": null,
+        "roic": null,
+        "free_cash_flow": null,
+        "net_debt": null,
+        "net_debt_to_ebitda": null,
+        "revenue_growth": null
+      },
+      "valuation": {
+        "market_cap": 262193.28419507673,
+        "enterprise_value": null,
+        "pe": null,
+        "pb": null,
+        "ev_ebitda": null,
+        "ev_ebit": null,
+        "ev_sales": null,
+        "fcf_yield": null
+      },
+      "missing_inputs": [
+        "revenue",
+        "ebitda",
+        "ebit",
+        "net_income",
+        "shareholders_equity",
+        "total_debt",
+        "cash_and_equivalents",
+        "operating_cash_flow",
+        "capital_expenditure"
+      ]
+    },
+    "FY2018": {
+      "metrics": {
+        "ebitda_margin": null,
+        "net_margin": null,
+        "roe": null,
+        "roic": null,
+        "free_cash_flow": null,
+        "net_debt": null,
+        "net_debt_to_ebitda": null,
+        "revenue_growth": null
+      },
+      "valuation": {
+        "market_cap": 262193.28419507673,
+        "enterprise_value": null,
+        "pe": null,
+        "pb": null,
+        "ev_ebitda": null,
+        "ev_ebit": null,
+        "ev_sales": null,
+        "fcf_yield": null
+      },
+      "missing_inputs": [
+        "revenue",
+        "ebitda",
+        "ebit",
+        "net_income",
+        "shareholders_equity",
+        "total_debt",
+        "cash_and_equivalents",
+        "operating_cash_flow",
+        "capital_expenditure"
+      ]
+    },
+    "FY2019": {
+      "metrics": {
+        "ebitda_margin": null,
+        "net_margin": null,
+        "roe": null,
+        "roic": null,
+        "free_cash_flow": null,
+        "net_debt": null,
+        "net_debt_to_ebitda": null,
+        "revenue_growth": null
+      },
+      "valuation": {
+        "market_cap": 262193.28419507673,
+        "enterprise_value": null,
+        "pe": null,
+        "pb": null,
+        "ev_ebitda": null,
+        "ev_ebit": null,
+        "ev_sales": null,
+        "fcf_yield": null
+      },
+      "missing_inputs": [
+        "revenue",
+        "ebitda",
+        "ebit",
+        "net_income",
+        "shareholders_equity",
+        "total_debt",
+        "cash_and_equivalents",
+        "operating_cash_flow",
+        "capital_expenditure"
+      ]
+    },
+    "FY2020": {
+      "metrics": {
+        "ebitda_margin": null,
+        "net_margin": null,
+        "roe": null,
+        "roic": null,
+        "free_cash_flow": null,
+        "net_debt": null,
+        "net_debt_to_ebitda": null,
+        "revenue_growth": null
+      },
+      "valuation": {
+        "market_cap": 262193.28419507673,
+        "enterprise_value": null,
+        "pe": null,
+        "pb": null,
+        "ev_ebitda": null,
+        "ev_ebit": null,
+        "ev_sales": null,
+        "fcf_yield": null
+      },
+      "missing_inputs": [
+        "revenue",
+        "ebitda",
+        "ebit",
+        "net_income",
+        "shareholders_equity",
+        "total_debt",
+        "cash_and_equivalents",
+        "operating_cash_flow",
+        "capital_expenditure"
+      ]
+    },
+    "FY2021": {
+      "metrics": {
+        "ebitda_margin": null,
+        "net_margin": null,
+        "roe": null,
+        "roic": null,
+        "free_cash_flow": null,
+        "net_debt": null,
+        "net_debt_to_ebitda": null,
+        "revenue_growth": null
+      },
+      "valuation": {
+        "market_cap": 262193.28419507673,
+        "enterprise_value": null,
+        "pe": null,
+        "pb": null,
+        "ev_ebitda": null,
+        "ev_ebit": null,
+        "ev_sales": null,
+        "fcf_yield": null
+      },
+      "missing_inputs": [
+        "revenue",
+        "ebitda",
+        "ebit",
+        "net_income",
+        "shareholders_equity",
+        "total_debt",
+        "cash_and_equivalents",
+        "operating_cash_flow",
+        "capital_expenditure"
+      ]
+    },
+    "FY2022": {
+      "metrics": {
+        "ebitda_margin": null,
+        "net_margin": null,
+        "roe": null,
+        "roic": null,
+        "free_cash_flow": null,
+        "net_debt": null,
+        "net_debt_to_ebitda": null,
+        "revenue_growth": null
+      },
+      "valuation": {
+        "market_cap": 262193.28419507673,
+        "enterprise_value": null,
+        "pe": null,
+        "pb": null,
+        "ev_ebitda": null,
+        "ev_ebit": null,
+        "ev_sales": null,
+        "fcf_yield": null
+      },
+      "missing_inputs": [
+        "revenue",
+        "ebitda",
+        "ebit",
+        "net_income",
+        "shareholders_equity",
+        "total_debt",
+        "cash_and_equivalents",
+        "operating_cash_flow",
+        "capital_expenditure"
+      ]
+    },
+    "FY2023": {
+      "metrics": {
+        "ebitda_margin": null,
+        "net_margin": null,
+        "roe": null,
+        "roic": null,
+        "free_cash_flow": null,
+        "net_debt": null,
+        "net_debt_to_ebitda": null,
+        "revenue_growth": null
+      },
+      "valuation": {
+        "market_cap": 262193.28419507673,
+        "enterprise_value": null,
+        "pe": null,
+        "pb": null,
+        "ev_ebitda": null,
+        "ev_ebit": null,
+        "ev_sales": null,
+        "fcf_yield": null
+      },
+      "missing_inputs": [
+        "revenue",
+        "ebitda",
+        "ebit",
+        "net_income",
+        "shareholders_equity",
+        "total_debt",
+        "cash_and_equivalents",
+        "operating_cash_flow",
+        "capital_expenditure"
+      ]
+    },
+    "FY2024": {
+      "metrics": {
+        "ebitda_margin": null,
+        "net_margin": null,
+        "roe": null,
+        "roic": null,
+        "free_cash_flow": null,
+        "net_debt": null,
+        "net_debt_to_ebitda": null,
+        "revenue_growth": null
+      },
+      "valuation": {
+        "market_cap": 262193.28419507673,
+        "enterprise_value": null,
+        "pe": null,
+        "pb": null,
+        "ev_ebitda": null,
+        "ev_ebit": null,
+        "ev_sales": null,
+        "fcf_yield": null
+      },
+      "missing_inputs": [
+        "revenue",
+        "ebitda",
+        "ebit",
+        "net_income",
+        "shareholders_equity",
+        "total_debt",
+        "cash_and_equivalents",
+        "operating_cash_flow",
+        "capital_expenditure"
+      ]
+    },
+    "FY2025": {
+      "metrics": {
+        "ebitda_margin": null,
+        "net_margin": null,
+        "roe": null,
+        "roic": null,
+        "free_cash_flow": null,
+        "net_debt": null,
+        "net_debt_to_ebitda": null,
+        "revenue_growth": null
+      },
+      "valuation": {
+        "market_cap": 262193.28419507673,
+        "enterprise_value": null,
+        "pe": null,
+        "pb": null,
+        "ev_ebitda": null,
+        "ev_ebit": null,
+        "ev_sales": null,
+        "fcf_yield": null
+      },
+      "missing_inputs": [
+        "revenue",
+        "ebitda",
+        "ebit",
+        "net_income",
+        "shareholders_equity",
+        "total_debt",
+        "cash_and_equivalents",
+        "operating_cash_flow",
+        "capital_expenditure"
+      ]
+    }
+  }
+}
