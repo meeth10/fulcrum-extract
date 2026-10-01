@@ -99,7 +99,62 @@ def _detect_year_header(rows: list[list[str]], scan_rows: int = 4) -> tuple[int,
     return best
 
 
-def parse_rows(rows: list[list[str]]) -> list[dict]:
+# A lone dash in a value column means "nothing / zero" and still occupies its column slot.
+_VALUE_OR_DASH_RE = re.compile(r"(" + _NUMBER_RE.pattern + r")|((?<!\S)[\u2014\u2013-](?!\S))")
+# Period tokens such as Q2-2025 / FY26 -- two or more in one row means it's the header row, not data.
+_PERIOD_TOKEN_RE = re.compile(r"\bQ[1-4][- ]?(?:FY)?\d{2,4}\b|\bFY\s?\d{2,4}\b|\b[HQ][1-4]\s?FY\d{2}\b", re.I)
+
+
+def _numbers_and_dashes(text: str) -> list[float | int]:
+    out: list[float | int] = []
+    for m in _VALUE_OR_DASH_RE.finditer(text):
+        if m.group(1) is not None:
+            n = _parse_number(m.group(1))
+            if n is not None:
+                out.append(n)
+        else:
+            out.append(0)
+    return out
+
+
+_PERCENT_RE = re.compile(r"\(?\s*-?\d[\d,]*(?:\.\d+)?\s*%\s*\)?")
+
+
+def _parse_with_columns(rows: list[list[str]], columns: list[str]) -> list[dict]:
+    """Positional parse for statements whose column headers aren't a plain
+    year row (3-month / 9-month / TTM, five trailing quarters, QoQ/YoY %
+    columns, ...). The caller states the period of each value column,
+    left to right; values are right-aligned, so the LAST len(columns)
+    numeric tokens of a row are those columns (anything before them is a
+    footnote marker or Note number). Percent-change columns are removed
+    first. A row with fewer numbers than columns is flagged, never padded
+    or guessed."""
+    n = len(columns)
+    parsed: list[dict] = []
+    for row_index, row in enumerate(rows):
+        cells = [_clean_cell(c) for c in (row or [])]
+        if not cells:
+            continue
+        label = _strip_numeric_tail(_PERCENT_RE.sub(" ", cells[0]))
+        if not label:
+            continue
+        text = _PERCENT_RE.sub(" ", " ".join(cells))
+        if len(_PERIOD_TOKEN_RE.findall(text)) >= 2:
+            continue  # the column-header row itself
+        nums = _numbers_and_dashes(text)
+        if not nums:
+            continue
+        if len(nums) < n:
+            parsed.append({"row_id": row_index, "metric_raw": label, "value": None, "period_raw": None,
+                           "ambiguous_multi_period": False, "column_mismatch": True, "all_values": nums})
+            continue
+        for period_raw, value in zip(columns, nums[-n:]):
+            parsed.append({"row_id": row_index, "metric_raw": label, "value": value, "period_raw": period_raw,
+                           "ambiguous_multi_period": False, "all_values": None})
+    return parsed
+
+
+def parse_rows(rows: list[list[str]], columns: list[str] | None = None) -> list[dict]:
     """Parse a raw table's rows into label + value entries.
 
     Never mix periods, never silently infer: a multi-year statement puts
@@ -116,6 +171,8 @@ def parse_rows(rows: list[list[str]]) -> list[dict]:
     the value, and flag the row `ambiguous_multi_period` when more than one
     candidate value was present, so callers can skip rather than guess.
     """
+    if columns:
+        return _parse_with_columns(rows, columns)
     header = _detect_year_header(rows)
     parsed: list[dict] = []
 

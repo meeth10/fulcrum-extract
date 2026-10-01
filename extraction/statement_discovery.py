@@ -125,10 +125,31 @@ def _title_pattern(title: str) -> re.Pattern[str]:
     return re.compile(r"\b" + r"\s+".join(parts) + r"\b", re.IGNORECASE)
 
 
+def _letterspaced_lines(text: str) -> list[str]:
+    """Heading lines rendered with every letter spaced out ("S T A T E M E N T
+    O F O P E R A T I O N S"), which investor decks and shareholder updates
+    commonly do. Word boundaries are lost in the extraction, so these are
+    returned whitespace-stripped and matched against whitespace-stripped
+    titles. Only lines that are overwhelmingly single characters qualify, so
+    ordinary body text can't trigger this."""
+    out = []
+    for line in text.split("\n"):
+        toks = line.split()
+        if len(toks) >= 8 and sum(len(t) == 1 for t in toks) / len(toks) >= 0.8:
+            out.append("".join(toks).upper())
+    return out
+
+
 def _match_title(text: str, statement: str) -> str | None:
     for title in TITLE_LISTS[statement]:
         if _title_pattern(title).search(text):
             return title
+    spaced = _letterspaced_lines(text)
+    if spaced:
+        for title in TITLE_LISTS[statement]:
+            compact = title.replace(" ", "").upper()
+            if any(compact in line for line in spaced):
+                return title
     for pattern in STATEMENT_PATTERNS[statement]:
         if re.search(pattern, _normalise(text), flags=re.IGNORECASE):
             return pattern

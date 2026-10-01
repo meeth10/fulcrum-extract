@@ -1,8 +1,8 @@
 {
-  "id": "amazon-com-inc",
-  "name": "Amazon.com, Inc.",
-  "ticker": "AMZN",
-  "sector": "Technology",
+  "id": "apple",
+  "name": "Apple",
+  "ticker": null,
+  "sector": null,
   "currency": "USD",
   "market": {
     "price": null,
@@ -10,11 +10,15 @@
     "net_debt_override": null
   },
   "periods": [
+    "9MFY2025",
+    "9MFY2026",
     "FY2025",
     "H1FY2025",
     "H1FY2026",
     "Q2FY2025",
     "Q2FY2026",
+    "Q3FY2025",
+    "Q3FY2026",
     "TTMQ2FY2025",
     "TTMQ2FY2026"
   ],
@@ -892,6 +896,778 @@
       }
     },
     "income_statement": {
+      "9MFY2025": {
+        "products": {
+          "consolidated": {
+            "value": 233287.0,
+            "unit": "unspecified",
+            "metric_raw": "Products",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "services": {
+          "consolidated": {
+            "value": 80408.0,
+            "unit": "unspecified",
+            "metric_raw": "Services",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "revenue": {
+          "consolidated": {
+            "value": 313695.0,
+            "unit": "unspecified",
+            "metric_raw": "Total net sales",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "total_cost_of_sales": {
+          "consolidated": {
+            "value": 166835.0,
+            "unit": "unspecified",
+            "metric_raw": "Total cost of sales",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "gross_margin": {
+          "consolidated": {
+            "value": 146860.0,
+            "unit": "unspecified",
+            "metric_raw": "Gross margin",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "research_and_development": {
+          "consolidated": {
+            "value": 25684.0,
+            "unit": "unspecified",
+            "metric_raw": "Research and development",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "selling,_general_and_administrative": {
+          "consolidated": {
+            "value": 20553.0,
+            "unit": "unspecified",
+            "metric_raw": "Selling, general and administrative",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "total_operating_expenses": {
+          "consolidated": {
+            "value": 46237.0,
+            "unit": "unspecified",
+            "metric_raw": "Total operating expenses",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "ebit": {
+          "consolidated": {
+            "value": 100623.0,
+            "unit": "unspecified",
+            "metric_raw": "Operating income",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "other_income/(expense),_net": {
+          "consolidated": {
+            "value": -698.0,
+            "unit": "unspecified",
+            "metric_raw": "Other income/(expense), net",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "income_before_provision_for_income_taxes": {
+          "consolidated": {
+            "value": 99925.0,
+            "unit": "unspecified",
+            "metric_raw": "Income before provision for income taxes",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "provision_for_income_taxes": {
+          "consolidated": {
+            "value": 15381.0,
+            "unit": "unspecified",
+            "metric_raw": "Provision for income taxes",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "net_income": {
+          "consolidated": {
+            "value": 84544.0,
+            "unit": "unspecified",
+            "metric_raw": "Net income",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "basic": {
+          "consolidated": {
+            "value": 5.64,
+            "unit": "unspecified",
+            "metric_raw": "Basic",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "diluted": {
+          "consolidated": {
+            "value": 5.62,
+            "unit": "unspecified",
+            "metric_raw": "Diluted",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "americas": {
+          "consolidated": {
+            "value": 134161.0,
+            "unit": "unspecified",
+            "metric_raw": "Americas",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "europe": {
+          "consolidated": {
+            "value": 82329.0,
+            "unit": "unspecified",
+            "metric_raw": "Europe",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "greater_china": {
+          "consolidated": {
+            "value": 49884.0,
+            "unit": "unspecified",
+            "metric_raw": "Greater China",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "japan": {
+          "consolidated": {
+            "value": 22067.0,
+            "unit": "unspecified",
+            "metric_raw": "Japan",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "rest_of_asia_pacific": {
+          "consolidated": {
+            "value": 25254.0,
+            "unit": "unspecified",
+            "metric_raw": "Rest of Asia Pacific",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "iphone": {
+          "consolidated": {
+            "value": 160561.0,
+            "unit": "unspecified",
+            "metric_raw": "iPhone",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "mac": {
+          "consolidated": {
+            "value": 24982.0,
+            "unit": "unspecified",
+            "metric_raw": "Mac",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "ipad": {
+          "consolidated": {
+            "value": 21071.0,
+            "unit": "unspecified",
+            "metric_raw": "iPad",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "wearables,_home_and_accessories": {
+          "consolidated": {
+            "value": 26673.0,
+            "unit": "unspecified",
+            "metric_raw": "Wearables, Home and Accessories",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        }
+      },
+      "9MFY2026": {
+        "products": {
+          "consolidated": {
+            "value": 272629.0,
+            "unit": "unspecified",
+            "metric_raw": "Products",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "services": {
+          "consolidated": {
+            "value": 91728.0,
+            "unit": "unspecified",
+            "metric_raw": "Services",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "revenue": {
+          "consolidated": {
+            "value": 364357.0,
+            "unit": "unspecified",
+            "metric_raw": "Total net sales",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "total_cost_of_sales": {
+          "consolidated": {
+            "value": 185575.0,
+            "unit": "unspecified",
+            "metric_raw": "Total cost of sales",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "gross_margin": {
+          "consolidated": {
+            "value": 178782.0,
+            "unit": "unspecified",
+            "metric_raw": "Gross margin",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "research_and_development": {
+          "consolidated": {
+            "value": 34035.0,
+            "unit": "unspecified",
+            "metric_raw": "Research and development",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "selling,_general_and_administrative": {
+          "consolidated": {
+            "value": 22315.0,
+            "unit": "unspecified",
+            "metric_raw": "Selling, general and administrative",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "total_operating_expenses": {
+          "consolidated": {
+            "value": 56350.0,
+            "unit": "unspecified",
+            "metric_raw": "Total operating expenses",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "ebit": {
+          "consolidated": {
+            "value": 122432.0,
+            "unit": "unspecified",
+            "metric_raw": "Operating income",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "other_income/(expense),_net": {
+          "consolidated": {
+            "value": 670.0,
+            "unit": "unspecified",
+            "metric_raw": "Other income/(expense), net",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "income_before_provision_for_income_taxes": {
+          "consolidated": {
+            "value": 123102.0,
+            "unit": "unspecified",
+            "metric_raw": "Income before provision for income taxes",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "provision_for_income_taxes": {
+          "consolidated": {
+            "value": 21638.0,
+            "unit": "unspecified",
+            "metric_raw": "Provision for income taxes",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "net_income": {
+          "consolidated": {
+            "value": 101464.0,
+            "unit": "unspecified",
+            "metric_raw": "Net income",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "basic": {
+          "consolidated": {
+            "value": 6.91,
+            "unit": "unspecified",
+            "metric_raw": "Basic",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "diluted": {
+          "consolidated": {
+            "value": 6.88,
+            "unit": "unspecified",
+            "metric_raw": "Diluted",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "americas": {
+          "consolidated": {
+            "value": 149403.0,
+            "unit": "unspecified",
+            "metric_raw": "Americas",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "europe": {
+          "consolidated": {
+            "value": 95596.0,
+            "unit": "unspecified",
+            "metric_raw": "Europe",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "greater_china": {
+          "consolidated": {
+            "value": 64839.0,
+            "unit": "unspecified",
+            "metric_raw": "Greater China",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "japan": {
+          "consolidated": {
+            "value": 24368.0,
+            "unit": "unspecified",
+            "metric_raw": "Japan",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "rest_of_asia_pacific": {
+          "consolidated": {
+            "value": 30151.0,
+            "unit": "unspecified",
+            "metric_raw": "Rest of Asia Pacific",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "iphone": {
+          "consolidated": {
+            "value": 196515.0,
+            "unit": "unspecified",
+            "metric_raw": "iPhone",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "mac": {
+          "consolidated": {
+            "value": 27137.0,
+            "unit": "unspecified",
+            "metric_raw": "Mac",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "ipad": {
+          "consolidated": {
+            "value": 21700.0,
+            "unit": "unspecified",
+            "metric_raw": "iPad",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "wearables,_home_and_accessories": {
+          "consolidated": {
+            "value": 27277.0,
+            "unit": "unspecified",
+            "metric_raw": "Wearables, Home and Accessories",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        }
+      },
       "H1FY2025": {
         "net_product_sales": {
           "consolidated": {
@@ -2430,6 +3206,778 @@
             "extraction_method": "derived_ebit_plus_da",
             "extraction_confidence": 0.9,
             "doc_type": "earnings_release",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        }
+      },
+      "Q3FY2025": {
+        "products": {
+          "consolidated": {
+            "value": 66613.0,
+            "unit": "unspecified",
+            "metric_raw": "Products",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "services": {
+          "consolidated": {
+            "value": 27423.0,
+            "unit": "unspecified",
+            "metric_raw": "Services",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "revenue": {
+          "consolidated": {
+            "value": 94036.0,
+            "unit": "unspecified",
+            "metric_raw": "Total net sales",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "total_cost_of_sales": {
+          "consolidated": {
+            "value": 50318.0,
+            "unit": "unspecified",
+            "metric_raw": "Total cost of sales",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "gross_margin": {
+          "consolidated": {
+            "value": 43718.0,
+            "unit": "unspecified",
+            "metric_raw": "Gross margin",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "research_and_development": {
+          "consolidated": {
+            "value": 8866.0,
+            "unit": "unspecified",
+            "metric_raw": "Research and development",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "selling,_general_and_administrative": {
+          "consolidated": {
+            "value": 6650.0,
+            "unit": "unspecified",
+            "metric_raw": "Selling, general and administrative",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "total_operating_expenses": {
+          "consolidated": {
+            "value": 15516.0,
+            "unit": "unspecified",
+            "metric_raw": "Total operating expenses",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "ebit": {
+          "consolidated": {
+            "value": 28202.0,
+            "unit": "unspecified",
+            "metric_raw": "Operating income",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "other_income/(expense),_net": {
+          "consolidated": {
+            "value": -171.0,
+            "unit": "unspecified",
+            "metric_raw": "Other income/(expense), net",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "income_before_provision_for_income_taxes": {
+          "consolidated": {
+            "value": 28031.0,
+            "unit": "unspecified",
+            "metric_raw": "Income before provision for income taxes",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "provision_for_income_taxes": {
+          "consolidated": {
+            "value": 4597.0,
+            "unit": "unspecified",
+            "metric_raw": "Provision for income taxes",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "net_income": {
+          "consolidated": {
+            "value": 23434.0,
+            "unit": "unspecified",
+            "metric_raw": "Net income",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "basic": {
+          "consolidated": {
+            "value": 1.57,
+            "unit": "unspecified",
+            "metric_raw": "Basic",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "diluted": {
+          "consolidated": {
+            "value": 1.57,
+            "unit": "unspecified",
+            "metric_raw": "Diluted",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "americas": {
+          "consolidated": {
+            "value": 41198.0,
+            "unit": "unspecified",
+            "metric_raw": "Americas",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "europe": {
+          "consolidated": {
+            "value": 24014.0,
+            "unit": "unspecified",
+            "metric_raw": "Europe",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "greater_china": {
+          "consolidated": {
+            "value": 15369.0,
+            "unit": "unspecified",
+            "metric_raw": "Greater China",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "japan": {
+          "consolidated": {
+            "value": 5782.0,
+            "unit": "unspecified",
+            "metric_raw": "Japan",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "rest_of_asia_pacific": {
+          "consolidated": {
+            "value": 7673.0,
+            "unit": "unspecified",
+            "metric_raw": "Rest of Asia Pacific",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "iphone": {
+          "consolidated": {
+            "value": 44582.0,
+            "unit": "unspecified",
+            "metric_raw": "iPhone",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "mac": {
+          "consolidated": {
+            "value": 8046.0,
+            "unit": "unspecified",
+            "metric_raw": "Mac",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "ipad": {
+          "consolidated": {
+            "value": 6581.0,
+            "unit": "unspecified",
+            "metric_raw": "iPad",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "wearables,_home_and_accessories": {
+          "consolidated": {
+            "value": 7404.0,
+            "unit": "unspecified",
+            "metric_raw": "Wearables, Home and Accessories",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        }
+      },
+      "Q3FY2026": {
+        "products": {
+          "consolidated": {
+            "value": 78678.0,
+            "unit": "unspecified",
+            "metric_raw": "Products",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "services": {
+          "consolidated": {
+            "value": 30739.0,
+            "unit": "unspecified",
+            "metric_raw": "Services",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "revenue": {
+          "consolidated": {
+            "value": 109417.0,
+            "unit": "unspecified",
+            "metric_raw": "Total net sales",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "total_cost_of_sales": {
+          "consolidated": {
+            "value": 54647.0,
+            "unit": "unspecified",
+            "metric_raw": "Total cost of sales",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "gross_margin": {
+          "consolidated": {
+            "value": 54770.0,
+            "unit": "unspecified",
+            "metric_raw": "Gross margin",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "research_and_development": {
+          "consolidated": {
+            "value": 11729.0,
+            "unit": "unspecified",
+            "metric_raw": "Research and development",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "selling,_general_and_administrative": {
+          "consolidated": {
+            "value": 7346.0,
+            "unit": "unspecified",
+            "metric_raw": "Selling, general and administrative",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "total_operating_expenses": {
+          "consolidated": {
+            "value": 19075.0,
+            "unit": "unspecified",
+            "metric_raw": "Total operating expenses",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "ebit": {
+          "consolidated": {
+            "value": 35695.0,
+            "unit": "unspecified",
+            "metric_raw": "Operating income",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "other_income/(expense),_net": {
+          "consolidated": {
+            "value": 572.0,
+            "unit": "unspecified",
+            "metric_raw": "Other income/(expense), net",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "income_before_provision_for_income_taxes": {
+          "consolidated": {
+            "value": 36267.0,
+            "unit": "unspecified",
+            "metric_raw": "Income before provision for income taxes",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "provision_for_income_taxes": {
+          "consolidated": {
+            "value": 6478.0,
+            "unit": "unspecified",
+            "metric_raw": "Provision for income taxes",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "net_income": {
+          "consolidated": {
+            "value": 29789.0,
+            "unit": "unspecified",
+            "metric_raw": "Net income",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "basic": {
+          "consolidated": {
+            "value": 2.03,
+            "unit": "unspecified",
+            "metric_raw": "Basic",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "diluted": {
+          "consolidated": {
+            "value": 2.02,
+            "unit": "unspecified",
+            "metric_raw": "Diluted",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "americas": {
+          "consolidated": {
+            "value": 45781.0,
+            "unit": "unspecified",
+            "metric_raw": "Americas",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "europe": {
+          "consolidated": {
+            "value": 29395.0,
+            "unit": "unspecified",
+            "metric_raw": "Europe",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "greater_china": {
+          "consolidated": {
+            "value": 18816.0,
+            "unit": "unspecified",
+            "metric_raw": "Greater China",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "japan": {
+          "consolidated": {
+            "value": 6554.0,
+            "unit": "unspecified",
+            "metric_raw": "Japan",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "rest_of_asia_pacific": {
+          "consolidated": {
+            "value": 8871.0,
+            "unit": "unspecified",
+            "metric_raw": "Rest of Asia Pacific",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "iphone": {
+          "consolidated": {
+            "value": 54252.0,
+            "unit": "unspecified",
+            "metric_raw": "iPhone",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "mac": {
+          "consolidated": {
+            "value": 10352.0,
+            "unit": "unspecified",
+            "metric_raw": "Mac",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "ipad": {
+          "consolidated": {
+            "value": 6191.0,
+            "unit": "unspecified",
+            "metric_raw": "iPad",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
+            "fiscal_year": "FY2026"
+          },
+          "standalone": null,
+          "unspecified": null
+        },
+        "wearables,_home_and_accessories": {
+          "consolidated": {
+            "value": 7883.0,
+            "unit": "unspecified",
+            "metric_raw": "Wearables, Home and Accessories",
+            "source_page": 1,
+            "source_table": null,
+            "source_heading": "Apple Inc.",
+            "extraction_method": "camelot_stream_tight",
+            "extraction_confidence": 0.876100975609756,
+            "doc_type": "10K",
             "fiscal_year": "FY2026"
           },
           "standalone": null,
@@ -6201,6 +7749,28 @@
     }
   },
   "fundamentals": {
+    "9MFY2025": {
+      "revenue": 313695.0,
+      "ebitda": null,
+      "ebit": 100623.0,
+      "net_income": 84544.0,
+      "shareholders_equity": null,
+      "total_debt": null,
+      "cash_and_equivalents": null,
+      "operating_cash_flow": null,
+      "capital_expenditure": null
+    },
+    "9MFY2026": {
+      "revenue": 364357.0,
+      "ebitda": null,
+      "ebit": 122432.0,
+      "net_income": 101464.0,
+      "shareholders_equity": null,
+      "total_debt": null,
+      "cash_and_equivalents": null,
+      "operating_cash_flow": null,
+      "capital_expenditure": null
+    },
     "FY2025": {
       "revenue": null,
       "ebitda": null,
@@ -6256,6 +7826,28 @@
       "operating_cash_flow": 45387.0,
       "capital_expenditure": -53076.0
     },
+    "Q3FY2025": {
+      "revenue": 94036.0,
+      "ebitda": null,
+      "ebit": 28202.0,
+      "net_income": 23434.0,
+      "shareholders_equity": null,
+      "total_debt": null,
+      "cash_and_equivalents": null,
+      "operating_cash_flow": null,
+      "capital_expenditure": null
+    },
+    "Q3FY2026": {
+      "revenue": 109417.0,
+      "ebitda": null,
+      "ebit": 35695.0,
+      "net_income": 29789.0,
+      "shareholders_equity": null,
+      "total_debt": null,
+      "cash_and_equivalents": null,
+      "operating_cash_flow": null,
+      "capital_expenditure": null
+    },
     "TTMQ2FY2025": {
       "revenue": 670038.0,
       "ebitda": 134752.0,
@@ -6280,6 +7872,48 @@
     }
   },
   "comps": {
+    "9MFY2025": {
+      "metrics": {
+        "ebitda_margin": null,
+        "net_margin": 0.26951019302188434,
+        "roe": null,
+        "roic": null,
+        "free_cash_flow": null,
+        "net_debt": null,
+        "net_debt_to_ebitda": null,
+        "revenue_growth": null
+      },
+      "valuation": {},
+      "missing_inputs": [
+        "ebitda",
+        "shareholders_equity",
+        "total_debt",
+        "cash_and_equivalents",
+        "operating_cash_flow",
+        "capital_expenditure"
+      ]
+    },
+    "9MFY2026": {
+      "metrics": {
+        "ebitda_margin": null,
+        "net_margin": 0.27847413388517306,
+        "roe": null,
+        "roic": null,
+        "free_cash_flow": null,
+        "net_debt": null,
+        "net_debt_to_ebitda": null,
+        "revenue_growth": 0.16150082086102743
+      },
+      "valuation": {},
+      "missing_inputs": [
+        "ebitda",
+        "shareholders_equity",
+        "total_debt",
+        "cash_and_equivalents",
+        "operating_cash_flow",
+        "capital_expenditure"
+      ]
+    },
     "FY2025": {
       "metrics": {
         "ebitda_margin": null,
@@ -6369,6 +8003,48 @@
       "valuation": {},
       "missing_inputs": []
     },
+    "Q3FY2025": {
+      "metrics": {
+        "ebitda_margin": null,
+        "net_margin": 0.24920243311072354,
+        "roe": null,
+        "roic": null,
+        "free_cash_flow": null,
+        "net_debt": null,
+        "net_debt_to_ebitda": null,
+        "revenue_growth": -0.5312403417644537
+      },
+      "valuation": {},
+      "missing_inputs": [
+        "ebitda",
+        "shareholders_equity",
+        "total_debt",
+        "cash_and_equivalents",
+        "operating_cash_flow",
+        "capital_expenditure"
+      ]
+    },
+    "Q3FY2026": {
+      "metrics": {
+        "ebitda_margin": null,
+        "net_margin": 0.2722520266503377,
+        "roe": null,
+        "roic": null,
+        "free_cash_flow": null,
+        "net_debt": null,
+        "net_debt_to_ebitda": null,
+        "revenue_growth": 0.1635650176528138
+      },
+      "valuation": {},
+      "missing_inputs": [
+        "ebitda",
+        "shareholders_equity",
+        "total_debt",
+        "cash_and_equivalents",
+        "operating_cash_flow",
+        "capital_expenditure"
+      ]
+    },
     "TTMQ2FY2025": {
       "metrics": {
         "ebitda_margin": 0.2011109817652133,
@@ -6378,7 +8054,7 @@
         "free_cash_flow": 18184.0,
         "net_debt": null,
         "net_debt_to_ebitda": null,
-        "revenue_growth": 2.340069589144891
+        "revenue_growth": 5.123710209565242
       },
       "valuation": {},
       "missing_inputs": [

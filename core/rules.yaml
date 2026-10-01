@@ -17,7 +17,11 @@ canonical_terms:
     - sales revenue
     - turnover
     - operating revenue
-    - income from operations
+    - total revenue
+    - total revenues
+    - total net sales
+    - total net revenue
+    - total net revenues
     - revenue from contracts with customers
     - sales of products
     - sales of services
@@ -26,9 +30,11 @@ canonical_terms:
     - other non-operating income
     - non-operating income
     - other revenue
-    - interest income
     - dividend income
     - gain on investments
+  interest_income:
+    - interest income
+    - interest and other income
   cost_of_revenue:
     - cost of goods sold
     - cogs
@@ -67,6 +73,7 @@ canonical_terms:
     - ebit
     - operating profit
     - operating income
+    - income from operations
     - profit from operations
     - earnings before interest and tax
   finance_cost:

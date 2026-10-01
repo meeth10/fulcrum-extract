@@ -11,7 +11,7 @@ from extraction.pdf_router import extract_page_tables, page_needs_ocr
 from extraction.row_parser import parse_rows
 from extraction.headings import page_heading_summary
 from core.schema import init_db
-from core.db import add_document, add_line_item, LineItem
+from core.db import add_document, add_line_item, replace_statement_rows, LineItem
 from core.derivation import canonicalize_metric
 from core.periods import canonicalize_period
 
@@ -28,9 +28,12 @@ def normalize_metric(raw_label: str) -> str | None:
 
 def ingest(pdf_path: str, entity: str, doc_type: str, fiscal_year: str,
            period: str, statement: str, pages: list[int], db_path: str,
-           consolidated_override: bool | None = None) -> None:
+           consolidated_override: bool | None = None,
+           columns: list[str] | None = None) -> None:
     conn = init_db(db_path)
     document_id = add_document(conn, entity, doc_type, fiscal_year, pdf_path)
+    # Re-running the same filing/pages replaces those rows instead of stacking duplicates.
+    replace_statement_rows(conn, document_id, statement, pages)
     stored = 0
     skipped = 0
     requested_period = canonicalize_period(period)
@@ -66,10 +69,15 @@ def ingest(pdf_path: str, entity: str, doc_type: str, fiscal_year: str,
             print(f"[page {page}] no table found by any extractor", file=sys.stderr)
             continue
 
-        for table in tables:
-            parsed = parse_rows(table.rows)
+        for table in (tables[:1] if columns else tables):
+            parsed = parse_rows(table.rows, columns=columns)
 
             for row in parsed:
+                if row.get("column_mismatch"):
+                    print(f"[page {page}] skipping '{row.get('metric_raw')}': {len(row['all_values'])} number(s) "
+                          f"for {len(columns)} declared columns", file=sys.stderr)
+                    skipped += 1
+                    continue
                 if row.get("ambiguous_multi_period"):
                     print(f"[page {page}] skipping '{row.get('metric_raw')}': more than one "
                           f"numeric value and no year header to resolve them against", file=sys.stderr)
@@ -87,7 +95,7 @@ def ingest(pdf_path: str, entity: str, doc_type: str, fiscal_year: str,
                 # ingest() call per column.
                 if row.get("period_raw"):
                     row_period = canonicalize_period(row["period_raw"])
-                    if row_period != requested_period:
+                    if row_period != requested_period and not columns:
                         print(f"[page {page}] '{row.get('metric_raw')}': column period "
                               f"{row_period!r} (detected) differs from --period "
                               f"{requested_period!r} (requested) — storing under {row_period!r}",
@@ -119,6 +127,10 @@ if __name__ == "__main__":
     p.add_argument("--period", required=True)
     p.add_argument("--statement", required=True, choices=["balance_sheet", "income_statement", "cash_flow"])
     p.add_argument("--pages", required=True)
+    p.add_argument("--columns", default=None,
+                   help="Comma-separated period for each value column, left to right, e.g. "
+                        "'Q2-2025,Q3-2025,Q4-2025,Q1-2026,Q2-2026' or 'Q3FY2026,Q3FY2025,9MFY2026,9MFY2025'. "
+                        "Use for multi-column income statements with no plain year header row.")
     p.add_argument("--db", default="data/financials.db")
     p.add_argument("--consolidated", choices=["true", "false"], default=None,
                     help="Override the heading-detected consolidated/standalone flag. "
@@ -128,4 +140,5 @@ if __name__ == "__main__":
     override = None if args.consolidated is None else (args.consolidated == "true")
     ingest(args.pdf_path, args.entity, args.doc_type, args.fiscal_year,
            args.period, args.statement, [int(x) for x in args.pages.split(",")],
-           args.db, consolidated_override=override)
+           args.db, consolidated_override=override,
+           columns=[c.strip() for c in args.columns.split(',')] if args.columns else None)

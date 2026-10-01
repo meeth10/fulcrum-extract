@@ -28,12 +28,31 @@ class LineItem:
 def add_document(conn: sqlite3.Connection, entity: str, doc_type: str,
                   fiscal_year: str, filepath: str,
                   source_type: str = "MANUAL_UPLOAD") -> int:
+    existing = conn.execute(
+        "SELECT id FROM documents WHERE entity = ? AND doc_type = ? AND fiscal_year = ? AND filepath = ? "
+        "ORDER BY id LIMIT 1", (entity, doc_type, fiscal_year, filepath)).fetchone()
+    if existing:  # same filing again -> reuse its document row rather than stacking a new one
+        return existing[0]
     cur = conn.execute(
         "INSERT INTO documents (entity, doc_type, fiscal_year, filepath, source_type) VALUES (?, ?, ?, ?, ?)",
         (entity, doc_type, fiscal_year, filepath, source_type),
     )
     conn.commit()
     return cur.lastrowid
+
+
+def replace_statement_rows(conn: sqlite3.Connection, document_id: int, statement: str,
+                            pages: list[int] | None = None) -> int:
+    """Delete this document's existing rows for one statement, optionally only those
+    from the given source pages, so re-ingesting a page replaces it instead of stacking
+    duplicates while leaving other pages of the same statement untouched."""
+    query, params = "DELETE FROM line_items WHERE document_id = ? AND statement = ?", [document_id, statement]
+    if pages:
+        query += " AND source_page IN (%s)" % ",".join("?" * len(pages))
+        params += list(pages)
+    cur = conn.execute(query, params)
+    conn.commit()
+    return cur.rowcount
 
 
 def add_line_item(conn: sqlite3.Connection, document_id: int, item: LineItem) -> int:

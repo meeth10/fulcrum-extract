@@ -16,7 +16,7 @@ from __future__ import annotations
 import argparse, re, sys
 import pdfplumber
 from core.schema import init_db
-from core.db import add_document, add_line_item, LineItem, list_periods
+from core.db import add_document, add_line_item, replace_statement_rows, LineItem, list_periods
 from export.site_data import write_site_data
 from valuation.comps import MarketData
 from extraction.statement_discovery import discover_statement_pages
@@ -54,6 +54,14 @@ METRIC_OVERRIDES = {
     "Operating income": "ebit",
     "Total net sales": "revenue",
 }
+
+def _unit_for(label):
+    """Per-share figures and share counts aren't USD millions; tagging them so
+    would let unit conversion scale an EPS of 5.82 as if it were $5.82 million."""
+    l = label.lower()
+    if "per share" in l: return "usd_per_share"
+    if "shares" in l: return "shares_mm"
+    return "usd_mm"
 
 def clean(label, stmt):
     if stmt == "income_statement" and label in ("Basic", "Diluted"):
@@ -104,12 +112,14 @@ def main():
             "balance_sheet": [f"FY{py}", f"Q2FY{y}"]}
     conn = init_db(a.db)
     doc = add_document(conn, a.entity, "earnings_release", f"FY{y}", a.pdf_path)
+    for _stmt in ("income_statement", "cash_flow", "balance_sheet"):
+        replace_statement_rows(conn, doc, _stmt)
     n = 0
     def put(stmt, period, label, val, page, method="pdf_text_column_parse", conf=0.98, metric=None):
         nonlocal n
         m = metric or METRIC_OVERRIDES.get(label) or normalize_metric(label) or re.sub(r"[^a-z0-9]+", "_", label.lower()).strip("_")[:60]
         add_line_item(conn, doc, LineItem(entity=a.entity, period=period, statement=stmt, metric=m, metric_raw=label,
-            value=val, unit="usd_mm", consolidated=True, source_page=page, source_table=None,
+            value=val, unit=_unit_for(label), consolidated=True, source_page=page, source_table=None,
             extraction_method=method, extraction_confidence=conf, source_heading=None)); n += 1
     for stmt, rows in (("income_statement", IS), ("cash_flow", CF), ("balance_sheet", BS)):
         for label, vals in rows.items():

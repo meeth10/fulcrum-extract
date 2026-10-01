@@ -47,9 +47,24 @@ class CompanyComp:
     missing_inputs: list[str] = field(default_factory=list)
 
 
+# Which statements each fundamental may be read from. Without this, a revenue/EBIT
+# row mis-filed under 'balance_sheet' (e.g. a segment table) silently becomes the
+# company's figure for that period.
+_HOME_STATEMENTS = {
+    "revenue": ("income_statement",), "ebitda": ("income_statement",), "ebit": ("income_statement",),
+    "net_income": ("income_statement", "cash_flow"),
+    "shareholders_equity": ("balance_sheet",), "total_debt": ("balance_sheet",),
+    "cash_and_equivalents": ("balance_sheet",),
+    "operating_cash_flow": ("cash_flow",), "capital_expenditure": ("cash_flow",),
+}
+
+
 def _get_value(conn: sqlite3.Connection, entity: str, metric: str, period: str,
                 prefer_consolidated: bool = True) -> float | None:
     rows = db.get_line_item(conn, entity, metric, period)
+    home = _HOME_STATEMENTS.get(metric)
+    if home:
+        rows = [r for r in rows if r["statement"] in home]
     if not rows:
         return None
     if len(rows) > 1:

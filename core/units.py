@@ -35,7 +35,7 @@ _CURRENCY_ALIASES: dict[str, str] = {
     "gbp": "GBP", "£": "GBP", "pound": "GBP", "pounds": "GBP",
 }
 
-_NON_MONETARY = {"%", "percent", "x", "days", "", "unspecified"}
+_NON_MONETARY = {"%", "percent", "x", "days", "", "unspecified", "usd_per_share", "shares_mm"}
 
 
 def parse_unit(unit_str: str | None) -> tuple[str | None, float]:

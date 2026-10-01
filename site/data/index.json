@@ -1,16 +1,19 @@
 [
   {
-    "id": "amazon-com-inc",
-    "name": "Amazon.com, Inc.",
-    "ticker": "AMZN",
-    "sector": "Technology",
+    "id": "apple",
+    "name": "Apple",
+    "ticker": null,
+    "sector": null,
     "periods": [
+      "9MFY2025",
+      "9MFY2026",
       "FY2025",
-      "FY2026",
       "H1FY2025",
       "H1FY2026",
       "Q2FY2025",
       "Q2FY2026",
+      "Q3FY2025",
+      "Q3FY2026",
       "TTMQ2FY2025",
       "TTMQ2FY2026"
     ]
